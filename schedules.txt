@@ -1,6 +1,0 @@
-{'name': 'Marcos', 'date': 1656810000.0, 'drugs': 'Rola 10 mg; Pau 90 mg', 'carer': 'Marcola', 'description': 'Descrição legal'}
-{'name': 'Rolaca', 'date': 1656812300.0, 'drugs': 'Rola 10 mg; Pau 90 mg', 'carer': 'Marcola', 'description': 'Descrição legal'}
-{'name': 'Petraca', 'date': 1656814200.0, 'drugs': 'Rola 10 mg; Pau 90 mg', 'carer': 'Marcola', 'description': 'Descrição legal'}
-{'name': 'Marquinhos', 'date': 1665450600.0, 'drugs': ['Rola 10 mg', ' Pau 10 mg', ' Cu 20 mg'], 'carer': 'Marcos', 'description': 'adadasd'}
-{'name': 'markito', 'date': 1643807400.0, 'drugs': ['cu 10 mg', 'paymerda 20 mg', 'asdsa 20 mg'], 'carer': 'Marcos', 'description': 'asdasdasd'}
-{'name': 'adasds', 'date': 1643850000.0, 'drugs': ['asda 1 mg', 'asda 1 mg', ''], 'carer': 'Marcos', 'description': 'asdasd'}
