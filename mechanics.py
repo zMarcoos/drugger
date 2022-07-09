@@ -28,7 +28,7 @@ def confirm_alarm(schedule):
 
     save()
 
-    print('Digite "voltar" confirmar o alarme e voltar para o menu principal: ', end='')
+    print('Digite "voltar" para voltar menu principal: ', end='')
 
 def set_alarm(schedule):
     if in_time(schedule) > 0:
@@ -36,7 +36,8 @@ def set_alarm(schedule):
 
         print(f'\n\nALARME TOCANDO!!\n\nAlarme: {schedule["name"]}\nHorário: {datetime.fromtimestamp(schedule["date"])}\nRemédios: {", ".join(schedule["drugs"])}\nDescrição: {schedule["description"]}\n')
 
-        audio_file = os.path.dirname(__file__) + '\\note.mp3'
+        # audio_file = os.path.dirname(__file__) + '\\note.mp3'
+        audio_file = './note.mp3'
         playsound(audio_file)
 
     confirm_alarm(schedule)
@@ -57,7 +58,7 @@ def create_schedule():
     ).timestamp()
 
     if has_same_schedule(timestamp):
-        print('Já existe um alarme neste mesmo horário. Agende um que não esteja neste horário.')
+        print('Já existe um alarme neste mesmo horário. \n Agende um que não esteja neste horário.')
     else:
         drugs_input = input('Informe os medicamentos separando-os por ";" (Medicamento dosagem medida; Medicamento dosagem medida): ').split(';')
         carer = input('Digite o nome do cuidador ou o seu próprio nome mesmo: ')
